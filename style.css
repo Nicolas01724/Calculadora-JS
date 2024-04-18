@@ -1,0 +1,40 @@
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#sla {
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#bord {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
